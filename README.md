@@ -15,6 +15,8 @@ Finally, run the DoS script:
 ```console
 python3 dos_script.py
 ```
+""If you are attacking a Cloudflare, use --mode waf""
+
 When handling threads, use 1,000 threads—or whatever number you prefer, provided it is less than 2,500—as exceeding this could cause an OOM (Out of Memory) error.
 The `setup_tcp.sh` script serves to optimize the Linux kernel for handling a massive volume of concurrent TCP connections.
 
